@@ -1,0 +1,14 @@
+name: Team awesome's approval workflow
+on: 
+  pull_request:
+    branches:
+      - master
+jobs:
+  labelWhenPRCreated:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Add a label to PR 
+        uses: pullreminders/label-when-approved-action@master
+        env: 
+          GITHUB_TOKEN: ${{ secrets.TOKEN1 }}
+          ADD_LABEL: "awaiting%20review"
