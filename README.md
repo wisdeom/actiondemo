@@ -1,3 +1,3 @@
-# Tic Tac Toe Game
+# Actions Demo
 
-Learn GitHub Actions through a fun little game.
+Action에 대해 알아봅시다.
