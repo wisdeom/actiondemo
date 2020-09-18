@@ -10,5 +10,6 @@ jobs:
       - name: Add a label to PR 
         uses: pullreminders/label-when-approved-action@master
         env: 
+          APPROVALS: "0"
           GITHUB_TOKEN: ${{ secrets.TOKEN1 }}
           ADD_LABEL: "awaiting%20review"
