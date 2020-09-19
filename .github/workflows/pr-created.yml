@@ -1,5 +1,7 @@
 name: Team awesome's approval workflow
-on: pull_request
+on:
+  pull_request:
+    types: [ opened ]
 jobs:
   labelWhenPRCreated:
     runs-on: ubuntu-latest
