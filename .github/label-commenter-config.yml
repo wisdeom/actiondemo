@@ -44,4 +44,4 @@ labels:
   - name: wisdeom
     labeled:
       issue:
-        body: Thank you @{{ issue.user.login }}. We all know 엄지혜 is pretty cool! 🚀
+        body: Thank you @{{ issue.user.login }}. We all know 엄지혜 is pretty cool! 💚 🚀
