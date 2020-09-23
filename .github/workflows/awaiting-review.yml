@@ -1,5 +1,7 @@
 name: Awaiting Review
-on: pull_request
+on:
+  pull_request:
+    types: opened
 jobs:
   labelWhenApproved:
     runs-on: ubuntu-latest
