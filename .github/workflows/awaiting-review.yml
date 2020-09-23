@@ -10,3 +10,4 @@ jobs:
           APPROVALS: "0"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ADD_LABEL: "awaiting%20review"
+
