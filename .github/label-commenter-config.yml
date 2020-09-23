@@ -41,7 +41,7 @@ labels:
     labeled:
       issue:
         body: Thank you @{{ issue.user.login }} for suggesting this.
-  - name: wisdeom
+  - name: 액션짱
     labeled:
       issue:
-        body: Thank you @{{ issue.user.login }}. We all know 엄지혜 is pretty cool! 🚀
+        body: @{{ issue.user.login }}님 의견 감사합니다. 액션은 꽤 재미있는 것 같죠?! 🚀
