@@ -45,3 +45,4 @@ labels:
     labeled:
       issue:
         body: @{{ issue.user.login }}님 의견 감사합니다. 액션은 꽤 재미있는 것 같죠?! 🚀
+        action: close
