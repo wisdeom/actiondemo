@@ -44,5 +44,5 @@ labels:
   - name: 액션짱
     labeled:
       issue:
-        body: @{{ issue.user.login }}님 의견 감사합니다. 액션은 꽤 재미있는 것 같죠?! 🚀
+        body: 안녕하세요 @{{ issue.user.login }}님 의견 감사합니다. 액션은 꽤 재미있는 것 같죠?! 🚀
         action: close
